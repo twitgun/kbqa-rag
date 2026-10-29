@@ -1,0 +1,3 @@
+{
+  "tests/test_normalize.py::test_count_mismatch_rejected": true
+}

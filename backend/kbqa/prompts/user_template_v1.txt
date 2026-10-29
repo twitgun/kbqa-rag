@@ -1,0 +1,6 @@
+【参考资料】
+
+{context}
+
+【问题】
+{question}

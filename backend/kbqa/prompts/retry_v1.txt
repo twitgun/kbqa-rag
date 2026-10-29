@@ -1,0 +1,14 @@
+你上一次的输出未通过系统校验。
+
+问题：{issues}
+
+要求：
+1. 只输出一个 JSON 对象，不要代码块、不要解释文字。
+2. 字段必须为 answer、citations、insufficient、confidence，不得增删。
+3. citations 中的 chunk_id 必须来自下方【可用片段】，quote 必须逐字摘自该片段。
+4. 如果证据不足，设置 insufficient=true 且 citations=[]，不要编造。
+
+【可用片段】
+{available}
+
+请重新输出：

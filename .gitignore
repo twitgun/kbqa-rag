@@ -1,0 +1,25 @@
+# 环境与密钥
+.env
+.env.local
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# 运行时数据（体积大、可重建）
+runtime/models/
+data/uploads/
+data/bm25/
+data/mysql_dev/
+data/vectors.pkl
+logs/
+*.log
+
+# 前端
+node_modules/
+frontend/dist/
+backend/kbqa/static/

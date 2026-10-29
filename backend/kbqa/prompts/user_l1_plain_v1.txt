@@ -1,0 +1,3 @@
+{question}
+
+只输出 JSON：{"answer": "...", "citations": [], "insufficient": false, "confidence": 0.0}
